@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+ }
+
+ header{
+     background-color: greenyellow;
+     text-align: center;
+     padding: 1.2em;
+ }
+
+ header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+ .container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}

@@ -7,15 +7,35 @@
         <link href="reset.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Calorias do Dia</h1>
-        <section>
-            <table>
-                <tr>
-                    <th>Alimento</th>
-                    <th>Calorias</th>
-                </tr>
-            </table>
-        </section>
+        <header>
+            <div class="container">
+                <h1>Calorias do Dia</h1>
+            </div>    
+        </header>
+        <main>
+            <section class="container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Alimento</th>
+                            <th>Calorias</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-alimentos">
+                        <tr class="alimento">
+                            <td class="nome-alimento">Frango Assado</td>
+                            <td class="cal-alimento">220 cal</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th class="total-cal">Calorias Total</th>
+                            <td class="resultado-cal"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </main>
         <script src="calcula.js"></script>
     </body>
 </html>
