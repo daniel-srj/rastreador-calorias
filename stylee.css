@@ -1,17 +1,38 @@
-*{
-	box-sizing: border-box;
- }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Poppins:wght@300&display=swap');
+html *{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-image: url(textura.png);
+	margin-top: 50px;
+}
+
+#principal{
+	background: #e9edf0;
+	height: auto;
+	padding-bottom: 90px;
+	border-radius: 30px;
+	box-shadow: 2px 2px 10px rgb(138, 138, 138);
+}
 
  header{
-     background-color: greenyellow;
+     background-image: linear-gradient(to bottom right, #17a6fe,#0092ec);
      text-align: center;
      padding: 1.2em;
+	 margin-bottom: 2em;
+	 border-top-left-radius: 30px;
+	 border-top-right-radius: 30px;
+	 box-shadow: inset 0px -2px 3px rgb(138, 138, 138)
  }
 
  header h1{
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+	border-bottom: 2px solid #00f19d;
+	text-transform: uppercase;
+	
 }
 
  .container{
@@ -22,14 +43,104 @@
 
 table{
 	width: 100%;
-	margin-bottom : .5em;
+	margin-bottom : 2em;
+	border-spacing: 5px 10px;
     table-layout: fixed;
-
 }
 
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: none;
 	text-align: center;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom right, #e9ecf1, #e7e9ee);
+	box-shadow: inset -2px -3px 3px #f9fafb, inset 1.5px 1.5px 3px rgba(94, 104, 121, .5);
+}
+
+#form-adicionar{
+	background-image: linear-gradient(to bottom right, #e9ecf1, #e7e9ee);
+	border-radius: 10px;
+	width: 25%;
+	box-shadow: -6px -6px 10px #f9fafb, 6px 6px 6px rgba(94, 104, 121, .288);
+}
+
+.form{
+	padding: 1.4em;
+}
+
+label{
+	font-weight: bold;
+}
+
+.campos{
+	padding: .6em;
+	margin: 1em 0 1em 0;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	background: #e9ecf1;
+	box-shadow: inset -3px -3px 2px #f9fafb, inset 2px 2px 2px rgba(94, 104, 121, .288);
+	
+}
+
+.campos:focus{
+	outline: none;
+}
+
+#caixa-botao{
+	margin: 0 100px;
+}
+
+#adicionar-alimento{
+	display: block;
+	border: none;
+	background-color: #0092ec;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 50%;
+	padding: 8px 15px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: -3px -3px 2px #f7fbff, 3px 3px 5px rgba(17, 19, 22, 0.575);
+}
+
+#adicionar-alimento:hover{
+	background-color: #0092ec;
+	box-shadow: inset -3px -3px 6px #f7fbff96, inset 3px 3px 5px rgba(17, 19, 22, 0.575), inset -1px -1px 2px rgba(17, 19, 22, 0.575);
+	color: white;
+}
+
+#redes-sociais{
+	margin: 80px auto;
+	width: 32%;
+	height: 150px;
+}
+
+.rede{
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin-left: 40px;
+	border-radius: 50%;
+	box-shadow: -3px -3px 4px #ffffff, 3px 3px 3px rgba(94, 104, 121, 0.295);
+}
+
+.rede#github{
+	background-color: #2f363a;
+}
+
+.rede#twitter{
+	background-color: #79bfff;
+}
+
+.rede#instagram{
+	background-color: #ec7cda;
+}
+
+.icone{
+	margin: 10px 5px 15px 10px;
+	padding: 4px;
+	width: 42px;
 }

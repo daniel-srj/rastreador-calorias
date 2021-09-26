@@ -1,4 +1,4 @@
-Olá! Esta é uma ferramenta para lhe ajudar a controlar sua ingestão de calorias para uma vida mais saudável e feliz.
+Olá! Esta é uma ferramenta para lhe ajudar a controlar sua injestão de calorias para uma vida mais saudável e feliz.
 --------------------------------------------------------------------------------------------------------------------
 1. Em desenvolvimento...
 --------------------------------------------------------------------------------------------------------------------
